@@ -12,9 +12,7 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: linear-gradient(
-    to botton rgb(234, 123, 123) rgb(230, 120, 123)
-  );
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
 .pokemon-cards-area {
