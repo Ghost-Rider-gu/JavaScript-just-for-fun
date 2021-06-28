@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jomhuria", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: beige;
+  background: rgb(2,0,36);
+  background: linear-gradient(7deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.quote {
+    border-right: 3px solid beige;
+    border-left: 3px solid beige;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(148, 148, 223);
+    padding: 10px 10px;
+}
+
+.quote-text {
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-style: italic;
+}
