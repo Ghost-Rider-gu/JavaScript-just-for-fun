@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Encode Sans SC", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  color: white;
+  background: rgb(14, 76, 95);
+}
+
+.search-form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.search {
+  width: 100%;
+  display: block;
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(78, 105, 104);
+  box-shadow: 0 5px 10px rgb(154, 160, 185, 0.5);
+}
+
+.search:focus {
+  outline: none;
+}
+
+.user-data {
+  max-width: 800px;
+  display: flex;
+  padding: 2rem;
+  margin: 0 1.5rem;
+  background-color: rgb(78, 105, 104);
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgb(154, 160, 185, 0.5);
+}
+
+.user-avatar {
+  border-radius: 50%;
+  border: 8px solid #fff;
+  height: 150px;
+  width: 150px;
+}
+
+.user-info {
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info ul {
+  max-width: 400px;
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+}
+
+.repo-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(150, 180, 150);
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
