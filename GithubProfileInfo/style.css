@@ -50,6 +50,10 @@ body {
   box-shadow: 0 5px 10px rgb(154, 160, 185, 0.5);
 }
 
+.avatar-link {
+  cursor: pointer;
+}
+
 .user-avatar {
   border-radius: 50%;
   border: 8px solid #fff;

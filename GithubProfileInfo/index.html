@@ -10,33 +10,20 @@
   <body>
     <h2>Github Profile Information</h2>
     <form class="search-form" id="search-form">
-      <input type="text" class="search" placeholder="Input github user here" />
+      <input
+        type="text"
+        id="search-input"
+        class="search"
+        placeholder="Input github user here"
+      />
     </form>
-    <main id="profile-info">
-      <div class="user-data">
-        <div>
-          <img
-            src="https://randomuser.me/api/portraits/men/20.jpg"
-            alt="user's photo"
-            class="user-avatar"
-          />
-        </div>
-        <div class="user-info">
-          <h2>Greenier</h2>
-          <p>This is the best user all over github universe</p>
-          <ul>
-            <li>200 <strong>Followers</strong></li>
-            <li>200 <strong>Following</strong></li>
-            <li>200 <strong>Repos</strong></li>
-          </ul>
-          <div id="user-repos">
-            <a href="#" class="repo-link">Repo #1</a>
-            <a href="#" class="repo-link">Repo #2</a>
-            <a href="#" class="repo-link">Repo #3</a>
-          </div>
-        </div>
-      </div>
-    </main>
+    <main id="profile-info"></main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
