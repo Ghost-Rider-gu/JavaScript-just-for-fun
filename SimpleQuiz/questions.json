@@ -1,0 +1,92 @@
+{
+    "questions": [
+      {
+        "question": "What was the Turkish city of Istanbul called before 1930?",
+        "a": "Istanbul",
+        "b": "Las Vegas",
+        "c": "Constantinople",
+        "d": "İzmir",
+        "correct": "c"
+      },
+      {
+        "question": "What is the capital of New Zealand?",
+        "a": "Auckland",
+        "b": "Tauranga",
+        "c": "Christchurch",
+        "d": "Wellington",
+        "correct": "d"
+      },
+      {
+        "question": "What is the smallest planet in our solar system?",
+        "a": "Mercury",
+        "b": "Mars",
+        "c": "Earth",
+        "d": "Venus",
+        "correct": "a"
+      },
+      {
+        "question": "What is the currency of Denmark?",
+        "a": "Euro",
+        "b": "Krone",
+        "c": "Dollar",
+        "d": "Ruble",
+        "correct": "b"
+      },
+      {
+        "question" : "How many human players are there on each side in a polo match?",
+        "a" : "Four",
+        "b" : "Two",
+        "c" : "Five",
+        "d" : "Six",
+        "correct": "a"
+      },
+      {
+        "question": "Which country in the world is believed to have the most miles of motorway?",
+        "a": "USA",
+        "b": "China",
+        "c": "Canada",
+        "d": "Japan",
+        "correct": "b"
+      },
+      {
+        "question": "Which colour pill does Neo swallow in The Matrix?",
+        "a": "Green",
+        "b": "White",
+        "c": "Blue",
+        "d": "Red",
+        "correct": "d"
+      },
+      {
+        "question": "Name the first actor to play Dumbledore in the Harry Potter films.",
+        "a": "Richard Harris",
+        "b": "Ralph Fiennes",
+        "c": "Michael Gambon",
+        "d": "Gary Oldman",
+        "correct": "a"
+      },
+      {
+        "question": "What is the capital city of Australia?",
+        "a": "I do not know",
+        "b": "Sydney",
+        "c": "Canberra",
+        "d": "Bristol",
+        "correct": "c"
+      },
+      {
+        "question": "What colour are most buses in London?",
+        "a": "Yellow",
+        "b": "Black",
+        "c": "Blue",
+        "d": "Red",
+        "correct": "d"
+      },
+      {
+        "question": "What’s the name of the talking snowman in Disney’s Frozen?",
+        "a": "Olaf",
+        "b": "Teddy",
+        "c": "Christof",
+        "d": "Gustafsson",
+        "correct": "a"
+      }
+    ]
+  }

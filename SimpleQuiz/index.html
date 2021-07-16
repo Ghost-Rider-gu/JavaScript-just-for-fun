@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Simple quiz app</title>
+  </head>
+  <body>
+    <div class="quiz-area" id="quiz-area">
+      <div class="question-area">
+        <h2 id="question-text">New question</h2>
+        <ul>
+          <li>
+            <input type="radio" name="answer" class="answer" id="answer-one" />
+            <label for="answer-one" id="answer-one-label">Answer One</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="answer-two" />
+            <label for="answer-two" id="answer-two-label">Answer Two</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              name="answer"
+              class="answer"
+              id="answer-three"
+            />
+            <label for="answer-three" id="answer-three-label"
+              >Answer Three</label
+            >
+          </li>
+          <li>
+            <input type="radio" name="answer" class="answer" id="answer-four" />
+            <label for="answer-four" id="answer-four-label">Answer four</label>
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Next question</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
