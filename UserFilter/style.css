@@ -1,0 +1,94 @@
+@import url("'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap'");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-color: rgb(216, 241, 236);
+}
+
+.filter-container {
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px rgb(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 350px;
+}
+
+.title {
+  margin: 0;
+}
+
+.search-note {
+  display: inline-block;
+  opacity: 0.7;
+  margin: 5px 0 20px;
+}
+
+.head {
+  background-color: blue;
+  color: white;
+  padding: 30px 20px;
+}
+
+.head input {
+  color: white;
+  background-color: rgb(94, 94, 245);
+  border: 0;
+  border-radius: 50px;
+  font-size: 12px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.head input:focus {
+  outline: none;
+}
+
+.user-list {
+  list-style-type: none;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.user-list li {
+  display: flex;
+  padding: 15px;
+}
+
+.user-list img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+
+.user-list .user-info {
+  margin-left: 12px;
+}
+
+.user-list .user-info h4 {
+  margin: 0 0 10px;
+}
+
+.user-list .user-info p {
+  font-size: 13px;
+}
+
+.user-list li:not(:last-of-type) {
+  border-bottom: 1px solid rgb(173, 169, 169, 0.3);
+}
+
+.user-list li.hide {
+  display: none;
+}
