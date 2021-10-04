@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Akronim&display=swap");
+
+body {
+  font-family: "Abel", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Akronim", sans-serif;
+  font-size: 55px;
+  text-shadow: 5px 5px #558abb;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.category {
+  padding: 10px;
+  margin: 15px;
+  width: 350px;
+  height: 350px;
+  border-radius: 10%;
+}
+
+.category-logo {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info > code {
+  margin: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #558abb;
+  font-size: 15px;
+  font-style: italic;
+}

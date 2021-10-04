@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="images/favicon.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="dashboard-style.css" />
+    <title>Application Dashboard</title>
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript just for fun</h1>
+    </header>
+    <main>
+      <div class="category">
+        <div class="category-logo">
+          <img src="images/games-icon.png" alt="game category" />
+        </div>
+        <div class="category-description">
+          <span
+            >In this section we will post everything related to the games,
+            written in plain JavaScript</span
+          >
+        </div>
+      </div>
+      <div class="category">
+        <div class="category-logo">
+          <img
+            src="images/algo-icon.png"
+            alt="algorithms and data structures category"
+          />
+        </div>
+        <div class="category-description">
+          <span
+            >This section contains simple scripts related to the algos and data
+            structures</span
+          >
+        </div>
+      </div>
+      <div class="category">
+        <div class="category-logo">
+          <img src="images/apps-icon.png" alt="simple apps category" />
+        </div>
+        <div class="category-description">
+          <span
+            >Just simples apps without any category. Maybe in the future we will
+            break it into the different category, but not today :)</span
+          >
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="info">
+        <code>
+          &copy <span id="showDate"></span>
+          <script>
+            let currentDate = new Date();
+            document.getElementById("showDate").innerHTML =
+              currentDate.getFullYear();
+          </script>
+          Just For Fun. All rights reserved.
+        </code>
+      </div>
+    </footer>
+  </body>
+</html>
