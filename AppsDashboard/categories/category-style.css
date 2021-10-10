@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  font-family: "Abel", sans-serif;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Abel", sans-serif;
+  font-size: 55px;
+  color: white;
+  text-shadow: 5px 5px #558abb;
+}
+
+.history-back > a {
+  text-decoration: none;
+  text-align: right;
+  font-size: 22px;
+  color: #054480;
+}
+
+.history-back > a:hover {
+  color: #3279bb;
+}
+
+i::after {
+  content: " ";
+  white-space: pre;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-items > ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+ul > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+a > li {
+  margin: 15px;
+  padding: 5px;
+  background: #c3c3c3;
+  text-align: center;
+  min-width: 300px;
+}
+
+a > li:hover {
+  background: #e5e5e5;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info > code {
+  margin: 50px;
+  padding-top: 10px;
+  border-top: 1px solid #f5f5f5;
+  color: aliceblue;
+  font-size: 15px;
+  font-style: italic;
+}
