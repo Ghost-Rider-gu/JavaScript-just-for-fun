@@ -6,7 +6,7 @@ Mini web applications and scripts just for fun, separated by category such as **
 
 ## Application dashboard
 
-Just a shell for all scripts.
+\
 ![Dashboard preview](dashboard.gif)
 
 ## Category items
