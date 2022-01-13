@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.background {
+  background: url("https://images.wallpaperscraft.com/image/single/matrix_code_numbers_147523_1280x720.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.load-status {
+  font-size: 45px;
+  color: aliceblue;
+  font-weight: bolder;
+}
