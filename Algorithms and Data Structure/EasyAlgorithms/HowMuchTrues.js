@@ -1,5 +1,5 @@
 /*
-* This stuff was getting from LeetCode.
+* This stuff from LeetCode.
 *
 * Create a function which returns the number of true values there are in an array.
 * 
