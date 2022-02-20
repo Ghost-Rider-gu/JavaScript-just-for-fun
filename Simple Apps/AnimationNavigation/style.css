@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Encode Sans SC", sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: rgb(102, 96, 89);
+  color: rgb(26, 24, 24);
+}
+
+.navigation {
+  background-color: azure;
+  transform-origin: top left;
+  transition: transform 0.5s linear;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 60px;
+}
+
+.navigation.show-menu {
+  transform: rotate(-20deg);
+}
+
+.container {
+  position: fixed;
+  top: -100px;
+  left: -100px;
+}
+
+.open-close {
+  background-color: rgb(56, 155, 241);
+  height: 180px;
+  width: 180px;
+  border-radius: 20%;
+  position: relative;
+  transition: transform 0.5s linear;
+}
+
+.open-close button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  background: transparent;
+  border: 0;
+  font-size: larger;
+  color: rgb(241, 240, 247);
+  cursor: pointer;
+}
+
+.open-close button:focus {
+  outline: none;
+}
+
+#open_btn {
+  left: 60%;
+}
+
+#close_btn {
+  top: 60%;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
