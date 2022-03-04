@@ -1,0 +1,56 @@
+#borderSlider {
+  border: 1px outset black;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+
+#headSlider {
+  border: 1px outset black;
+  border-radius: 10px;
+  text-align: center;
+  color: cadetblue;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+#pictDiscript {
+  background-color: lightblue;
+  width: 150px;
+  margin-top: 3px;
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.slideshow {
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+#navlinks {
+  width: 400px;
+  font-weight: bold;
+  font-size: 110%;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+}
+
+#navlinks a {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  color: blue;
+  cursor: pointer;
+  text-decoration: none;
+}
