@@ -75,7 +75,7 @@
       </div>
       <div class="col">
         <div class="card border-light">
-          <img src="" class="card-img-top" alt="Article's image" />
+          <img src="./assets/images/articleImage.jpg" class="card-img-top" alt="Article's image" />
           <div class="card-header text-center">How to write a good article</div>
           <div class="card-body">
             <p class="card-text">
