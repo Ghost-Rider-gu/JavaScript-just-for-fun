@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Algorithms and Data structures",
+      "id": 1,
+      "type": "algorithms",
+      "children": [       
+                {
+                    "name": "Linear search",
+                    "id": 2,
+                    "type": "item"
+                },    
+                {
+                    "name": "Binary search",
+                    "id": 3,
+                    "type": "item"
+                },    
+                {
+                    "name": "Two sums",
+                    "id": 4,
+                    "type": "item"
+                }
+            ]
+    },
+    {
+      "name": "Code snippets",
+      "id": 9,
+      "type": "",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 10,
+            "type": "item"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 11,
+            "type": "item"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "item",
+            "id": 12
+          }
+      ]
+    }
+  ]
