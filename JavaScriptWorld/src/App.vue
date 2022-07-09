@@ -86,40 +86,18 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">
-        <nav class="navbar fixed-bottom navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-          <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarText">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <button type="button" class="btn btn-outline-dark m-2">
-                      <i class="bi-google" role="img" aria-label="Gmail"></i>
-                  </button>
-                  <button type="button" class="btn btn-outline-dark m-2">
-                      <i class="bi-github" role="img" aria-label="GitHub"></i>
-                  </button>
-                  <button type="button" class="btn btn-outline-dark m-2">
-                      <i class="bi-linkedin" role="img" aria-label="LinkedIn"></i>
-                  </button>
-                  <button type="button" class="btn btn-outline-dark m-2">
-                      <i class="bi-medium" role="img" aria-label="Medium"></i>
-                  </button>
-              </ul>
-              <span>&copy; 2022 Iurii Golubnichenko</span>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import TreeView from './components/TreeView.vue';
+import Footer from './components/layouts/Footer.vue';
 
 export default {
   components: {
-    TreeView
+    TreeView,
+    Footer
   }
 }
 </script>
