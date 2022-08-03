@@ -5,7 +5,9 @@
       <div class="col">
         <TreeView />
       </div>
-      <Article />
+      <div class="col">
+        <Article />
+      </div>
     </div>
     <Footer />
   </div>
@@ -23,7 +25,7 @@ export default {
     Article,
     Footer,
     Header,
-  },
+  }
 };
 </script>
 

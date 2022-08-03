@@ -2,7 +2,7 @@
     <vue3-tree-vue :items="$store.state.articles" 
                    :isCheckable="false"
                    :hideGuideLines="false">
-      <template v-slot:item-prepend-icon="treeViewItem" >
+      <template v-slot:item-prepend-icon="treeViewItem">
               <img src="../assets/images/algorithms.png" alt="algorithms" 
                   v-if="treeViewItem.type === 'algorithms'"
                   height="20" width="20">
@@ -14,7 +14,6 @@
               <img src="./assets/excel.svg"
                   v-if="treeViewItem.type === '.excel'"
                   height="20" width="20">
-
                   
               <img src="./assets/playlist.svg"
                   v-if="treeViewItem.type === '.playlist'"
@@ -23,9 +22,8 @@
               <img src="./assets/email.png"
                   v-if="treeViewItem.type === 'emails'"
                   height="20" width="20">
-          </template>
-          <template v-slot:item-prepend>
-            <div style="background: blue; height: 18px; width: 18px; margin-right: 0.2em" ></div>
+
+              <span>&nbsp;&nbsp;</span>
           </template>
     </vue3-tree-vue>
 </template>
