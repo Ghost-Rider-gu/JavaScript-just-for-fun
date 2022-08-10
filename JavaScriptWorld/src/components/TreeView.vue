@@ -3,25 +3,21 @@
                    :isCheckable="false"
                    :hideGuideLines="false">
       <template v-slot:item-prepend-icon="treeViewItem">
-              <img src="../assets/images/algorithms.png" alt="algorithms" 
-                  v-if="treeViewItem.type === 'algorithms'"
+              <img src="../assets/images/categoryIcon.ico" 
+                  v-if="treeViewItem.type === 'category'"
                   height="20" width="20">
 
-              <img src="../assets/images/item.png"
-                  v-if="treeViewItem.type === 'item'"
+              <img src="../assets/images/unreadArticleIcon.ico"
+                  v-if="treeViewItem.type === 'unreadItem'"
                   height="20" width="20">
 
-              <img src="./assets/excel.svg"
-                  v-if="treeViewItem.type === '.excel'"
-                  height="20" width="20">
-                  
-              <img src="./assets/playlist.svg"
-                  v-if="treeViewItem.type === '.playlist'"
+              <img src="../assets/images/readArticleIcon.ico"
+                  v-if="treeViewItem.type === 'readItem'"
                   height="20" width="20">
 
-              <img src="./assets/email.png"
-                  v-if="treeViewItem.type === 'emails'"
-                  height="20" width="20">
+              <img src="../assets/images/favoriteIcon.ico"
+                  v-if="treeViewItem.type === 'favorite'"
+                  height="20" width="20">  
 
               <span>&nbsp;&nbsp;</span>
           </template>

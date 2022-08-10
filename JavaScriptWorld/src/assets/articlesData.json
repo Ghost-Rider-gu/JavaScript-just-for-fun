@@ -1,45 +1,179 @@
 [
     {
-      "name": "Algorithms and Data structures",
+      "name": "Algorithms and data structures",
       "id": 1,
-      "type": "algorithms",
+      "type": "category",
       "children": [       
                 {
-                    "name": "Linear search",
+                    "name": "Easy algorithms",
                     "id": 2,
-                    "type": "item"
+                    "type": "category",
+                    "children": [
+                      {
+                        "name": "Binary search",
+                        "id": 32,
+                        "type": "readItem"
+                      },
+                      {
+                        "name": "Bubble sorting",
+                        "id": 33,
+                        "type": "favorite"
+                      },
+                      {
+                        "name": "Factorial",
+                        "id": 34,
+                        "type": "unreadItem"
+                      }
+                    ]
                 },    
                 {
-                    "name": "Binary search",
-                    "id": 3,
-                    "type": "item"
+                    "name": "Medium algorithms",
+                    "id": 39,
+                    "type": "category",
+                    "children": [
+                      {
+                        "name": "Product of all elements",
+                        "id": 37,
+                        "type": "readItem"
+                      }
+                    ]
                 },    
                 {
-                    "name": "Two sums",
+                    "name": "Hard algorithms",
                     "id": 4,
-                    "type": "item"
+                    "type": "category"
                 }
             ]
     },
     {
       "name": "Code snippets",
-      "id": 9,
-      "type": "",
+      "id": 2,
+      "type": "category",
       "children": [       
           {
             "name": "Space Station Design",
             "id": 10,
-            "type": "item"
+            "type": "readItem"
           },    
           {
             "name": "Garbage Collector Design",
             "id": 11,
-            "type": "item"
+            "type": "readItem"
           },
           {
             "name": "Design Extra-Terrestrial Life Support",
-            "type": "item",
+            "type": "readItem",
             "id": 12
+          }
+      ]
+    },
+    {
+      "name": "Games",
+      "id": 3,
+      "type": "category",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 109,
+            "type": "unreadItem"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 118,
+            "type": "unreadItem"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "unreadItem",
+            "id": 128
+          }
+      ]
+    },
+    {
+      "name": "Interview questions",
+      "id": 4,
+      "type": "category",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 101,
+            "type": "readItem"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 112,
+            "type": "readItem"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "readItem",
+            "id": 123
+          }
+      ]
+    },
+    {
+      "name": "Patterns",
+      "id": 5,
+      "type": "category",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 130,
+            "type": "readItem"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 131,
+            "type": "readItem"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "readItem",
+            "id": 152
+          }
+      ]
+    },
+    {
+      "name": "Simple apps",
+      "id": 6,
+      "type": "category",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 100,
+            "type": "readItem"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 711,
+            "type": "readItem"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "readItem",
+            "id": 812
+          }
+      ]
+    },
+    {
+      "name": "Third libraries",
+      "id": 7,
+      "type": "category",
+      "children": [       
+          {
+            "name": "Space Station Design",
+            "id": 210,
+            "type": "unreadItem"
+          },    
+          {
+            "name": "Garbage Collector Design",
+            "id": 411,
+            "type": "favorite"
+          },
+          {
+            "name": "Design Extra-Terrestrial Life Support",
+            "type": "unreadItem",
+            "id": 512
           }
       ]
     }
