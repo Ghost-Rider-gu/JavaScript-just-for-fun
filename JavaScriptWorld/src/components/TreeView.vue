@@ -1,5 +1,5 @@
 <template>
-    <vue3-tree-vue :items="$store.state.articles" 
+    <vue3-tree-vue :items="articles"
                    :isCheckable="false"
                    :hideGuideLines="false">
       <template v-slot:item-prepend-icon="treeViewItem">
@@ -30,6 +30,11 @@ import Vue3TreeVue from 'vue3-tree-vue';
 export default {
     components: {
         Vue3TreeVue
+    },
+    computed: {
+        articles() {
+            return this.$store.getters['articles/articles'];
+        }
     }
 }
 </script>
