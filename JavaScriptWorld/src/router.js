@@ -18,7 +18,14 @@ const router = createRouter({
         { path: '/login', component: LoginFormComponent },
         { path: '/logout', redirect: '/' },
         { path: '/:notFound(.*)',  component: NotFoundComponent }
-    ]
+    ],
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition;
+        } else {
+            return { left: 0, top: 0 };
+        }
+    }
 });
 
 export default router;
