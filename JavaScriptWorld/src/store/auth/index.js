@@ -5,7 +5,9 @@ import getters from './getters.js';
 export default {
     state() {
         return {
-            auth: {}
+            token: null,
+            userId: null,
+            tokenExpiration: null
         }
     },
     mutations,
